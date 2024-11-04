@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+TIMEZONE-ID:Asia/Dhaka
+X-WR-TIMEZONE:Asia/Dhaka
+BEGIN:VEVENT
+UID:f8if@esri.com
+SEQUENCE:0
+DTSTAMP:20240515T135546Z
+DTSTART;TZID=Asia/Dhaka:20240501T120000
+DTEND;TZID=Asia/Dhaka:20240501T120000
+RRULE:FREQ=WEEKLY;UNTIL=20240614T065959Z
+SUMMARY:Esri Training MOOC | GIS for Climate Action
+LOCATION:Esri Training website
+X-ALT-DESC;FMTTYPE=text/html:Hi\,<br><br>This weekly appointment is a plac
+ eholder to remind you to start or continue the course. Modify the times so
+  they work for your study schedule.<br><br>The course opens on 05/01/2024 
+ at 3:00 a.m. Pacific Time. To earn a certificate of completion\, you must 
+ complete all content in each section before the course closes.<br><br>To a
+ ccess the course\, click the link below\, then sign in with the same Esri 
+ username and password that you used to register.<br><a href='http://www.es
+ ri.com/training//my-schedule/'>http://www.esri.com/training//my-schedule</
+ a>/<br><br>Best regards\,<br>The Training Team
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:Esri Training MOOC | GIS for Climate Action
+END:VALARM
+END:VEVENT
+END:VCALENDAR
